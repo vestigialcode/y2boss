@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/vestigialcode/y2boss/issues"
   },
-  "homepage": "https://github.com/vestigialcode/y2boss#readme"
+  "homepage": "https://github.com/vestigialcode/y2boss#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0"
+  }
 }
