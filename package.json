@@ -1,0 +1,19 @@
+{
+  "name": "y2boss",
+  "version": "1.0.0",
+  "description": "code to download yt videos both mp3 and mp4",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vestigialcode/y2boss.git"
+  },
+  "author": "https://github.com/vestigialcode",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vestigialcode/y2boss/issues"
+  },
+  "homepage": "https://github.com/vestigialcode/y2boss#readme"
+}
