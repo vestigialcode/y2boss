@@ -10,8 +10,8 @@ app.get('/', (req, res) => {
 //Adding api endpoint
 app.get('/download', (req, res) => {
     var url = req.query.url;    
-    res.header("Content-Disposition", 'attachment;\  filename="song-random.mp3');    
-    ytdl(url, {format: 'mp3'}).pipe(res);
+    res.header("Content-Disposition", 'attachment;\  filename="song-random.mp4');    
+    ytdl(url, {format: 'mp4'}).pipe(res);
 });
 app.listen(3000, () => { 
     console.log(`Server started...`);
