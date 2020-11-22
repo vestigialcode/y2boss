@@ -1,2 +1,2 @@
 # y2boss
-code to download yt videos both mp3 and mp4
+download youtube to mp3 and mp4 files
