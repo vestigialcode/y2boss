@@ -5,7 +5,7 @@ const app = express();
 //Redirecting to static directory
 app.use('/static', express.static('./static'));
 app.get('/', (req, res) => { 
-    res.sendFile('index.html', { root: './' });
+    res.sendFile('static/index.html', { root: './' });
 });
 //Adding api endpoint
 app.get('/download', (req, res) => {
